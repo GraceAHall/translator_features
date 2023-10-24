@@ -1,0 +1,4 @@
+inStringInt: "hello"
+inBamFastq: {class: File, path: ../../textfile1.txt, format: "http://edamontology.org/format_2330"}
+inStringIntOpt: 10
+inBamFastqOpt: {class: File, path: ../../infile1.bam, format: "http://edamontology.org/format_2572"}

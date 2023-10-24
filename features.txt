@@ -1,0 +1,11 @@
+
+
+Due to cwl2nxf not supporting stdout, only tools which generate new files or expose "-o" to name an outputfilename are possible. Any tool which writes to stdout and needs a redirect > to a file cannot be used. For this reason, it is not viable for many real workflows. 
+
+cwl2nxf
+
+basic
+- stdout is not a supported data type
+- No signature of method: java.util.LinkedHashMap$Entry.keySet() is applicable for argument types: () values: []
+- when translating index_bam.cwl: Not a valid `baseCommand`: null
+

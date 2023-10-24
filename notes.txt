@@ -1,0 +1,116 @@
+
+Paper figures 
+
+- architecture (methods)
+    - [FIGURE] architecture diagram [DONE?]
+    - demonstrates scalability
+    - highlights that only janis provides certain translation
+        - galaxy -> nextflow
+        - galaxy -> wdl
+        - wdl -> nextflow
+
+- sample input -> output (methods)
+    - [FIGURE] full tool translation (simple, from CWL) [TODO]
+    - [FIGURE] full workflow translation (simple, from Galaxy) [TODO]
+    - displays janis basic functionality and expected output
+
+- feature snippets (methods)
+    - [FIGURE] feature snippets [TODO]
+    - datatypes, inputs, outputs, prefix, subworkflows etc etc
+    - displays janis extended functionality and expected output
+
+- galaxy parsing (methods)
+    - [FIGURE] annotated galaxy wrapper [TODO]
+    - demonstrates our approach to parsing galaxy
+    - not a lexer, progressive evidence gathering approach
+    - high-confidence evidence used to identify CLI args, followed by low-confidence evidence
+
+- feature coverage (results)
+    - [TABLE] basic feature coverage (ingest) [TODO]
+    - [TABLE] extensive feature coverage (ingest) [TODO]
+        - sample of 10 workflows for each format
+        - which feature is used and in what quantity
+        - which of these does janis currently support
+    - demonstrates supported / unsupported features
+    - gives people measure of whether janis can handle their tool / workflow 
+
+- translator metrics (results)
+    - [TABLE] Janis vs (cwl2nxf, galaxy2cwl, cwl2wdl, wdl2cwl) table [TODO]
+    - displays janis vs others runnability
+    - logic similarity, syntax similarity?, runnability
+
+- translator outputs (results)
+    - [FIGURE x4] Janis vs (cwl2nxf, galaxy2cwl, cwl2wdl, wdl2cwl) [TODO]
+    - displays janis vs others readability
+
+
+basic 
+- [DONE] basic type inputs
+- [DONE] prefix
+- [DONE] separate
+- [DONE] itemSeparator
+- [DONE] doc
+- [DONE] stdout
+- [DONE] InlineJavascriptRequirement
+- [DONE] initialWorkdirRequirement
+- [DONE] basic type outputs
+
+datatypes
+- [DONE] singles (str, int, file, bool, optionality)
+- [DONE] stdout
+- [DONE] arrays
+- [DONE] format
+- [DONE] multi
+- [DONE] secondaries
+
+requirements
+- 
+
+scatter
+- 
+
+subworkflows
+- 
+
+expressions
+- 
+
+expressiontools
+- 
+
+align_sort_markdup
+- 
+
+
+
+
+
+
+
+
+Issue? 
+- must do `pip install -e ../janis-core`
+
+
+artificial tool tests 
+- basic 
+- datatypes (incl. optionality)
+- expressions
+- expressiontools (CWL only)
+
+real tool tests 
+- samtools flagstat [easy]
+- fastqc [medium?]
+- bwa mem [hard]
+
+artificial workflow tests 
+- scatter 
+- subworkflows
+- 
+
+real workflow tests 
+- samtools flagstat [easy]
+- 
+- align_sort_markdup [hard]
+- 
+

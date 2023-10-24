@@ -1,0 +1,8 @@
+inFile: {class: File, path: ../../infile1.bam}
+inInt: 1
+inStr: "hello"
+inBool: true
+inFileOpt: {class: File, path: ../../infile2.bam}
+inIntOpt: 2
+inStrOpt: "friend!"
+inBoolOpt: true

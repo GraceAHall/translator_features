@@ -1,0 +1,9 @@
+inInt: 1
+inStr: "hello"
+inBool: true
+inFile: {class: File, path: ../../infile1.bam}
+inFileOpt: {class: File, path: ../../infile2.bam}
+inFileArr: 
+- {class: File, path: ../../textfile1.txt}
+- {class: File, path: ../../textfile2.txt}
+inSecondary: {class: File, path: ../../2895499223_sorted.bam}

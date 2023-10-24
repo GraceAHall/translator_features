@@ -1,0 +1,40 @@
+
+
+
+-----
+Paper
+-----
+
+Introduction
+- task
+- motivation
+- previous attempts at translation software 
+
+Methods 
+- architecture (incl. figure)
+- internal API
+- mapping (incl. figure)
+- command parsing (wdl, galaxy)
+
+Results 
+- simple tool / workflow (incl. figure)
+- special features (incl. figure)
+- comparison to other translators (incl. figure)
+- results table 
+
+Discussion 
+- use-cases
+- ingestion vs translation considerations
+
+Figures
+- Architecture 
+- Translation of simple tool 
+- Translation of simple workflow 
+- Translation of special features (scatter, secondary files, prefixes, optionality)
+- Comparisons to other translators
+- Results Table: syntax lineup, runnability (do this last)
+- Translation of all features (supplementary)
+- Syntax / feature mapping tables
+
+
+
