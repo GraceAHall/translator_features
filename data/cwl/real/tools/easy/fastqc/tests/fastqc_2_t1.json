@@ -1,0 +1,3 @@
+{
+  "reads_file": {"class": "File", "location": "../data/1000trimmed.fastq"}
+}

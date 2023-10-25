@@ -1,0 +1,7 @@
+preset: "sr"
+target:
+  class: File
+  path: ../data/bwa-mem-mt-genome.fa
+query:
+  - class: File
+    path: ../data/bwa-mem-fasta1.fa

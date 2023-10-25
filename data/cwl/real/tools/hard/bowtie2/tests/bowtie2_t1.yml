@@ -1,0 +1,9 @@
+reference_index: 
+  class: File
+  path: ../data/reference.fa
+fastq1: 
+  class: File
+  path: ../data/reads1.fq
+fastq2: 
+  class: File
+  path: ../data/reads2.fq

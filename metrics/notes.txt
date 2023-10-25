@@ -1,0 +1,22 @@
+
+---
+CWL 
+---
+
+Modifications
+- kraken2: removed "report" input (type = record)
+- nanoplot: 
+    - don't know how to specify array of enum
+    - removed "length_v_qual_scatter_plot_dot" output
+    - removed "length_v_qual_scatter_plot_kde" output
+- bowtie2:
+    - removed the following secondary files as were not needed
+        - ^.2.bt2
+        - ^.3.bt2
+        - ^.4.bt2
+        - ^.rev.1.bt2
+        - ^.rev.2.bt2
+Hard:
+- bamtools_stats: tricky outputEval javascript
+- bowtie2: javascript in inputs & arguments, tricky secondaries
+-  

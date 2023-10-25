@@ -1,0 +1,4 @@
+fastq1: 
+  class: File
+  format: edam:format_1931
+  path: ../data/R1.fq

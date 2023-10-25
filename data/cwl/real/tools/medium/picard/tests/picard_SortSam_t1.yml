@@ -1,0 +1,3 @@
+alignments:
+  class: File
+  path: ../data/picard_SortSam.bam

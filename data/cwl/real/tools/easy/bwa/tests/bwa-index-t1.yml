@@ -1,0 +1,4 @@
+sequences:
+  class: File
+  path: ../data/bwa-mem-mt-genome.fa
+  format: edam:format_1929

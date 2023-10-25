@@ -1,0 +1,6 @@
+General summary:        
+Mean read length:           2,851.6
+Median read length:         4,127.0
+Number of reads:                5.0
+Read length N50:            4,275.0
+Total bases:               14,258.0

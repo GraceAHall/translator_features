@@ -1,0 +1,4 @@
+fasta_files: 
+  - class: File
+    path: ../data/reads1.fasta
+    format: edam:format_1931

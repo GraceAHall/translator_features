@@ -1,0 +1,12 @@
+{
+    "database": {
+        "class": "File",
+        "path": "../data/hash.k2d"
+    },
+    "input_sequences": [{
+        "class": "File",
+        "path": "../data/kraken_test1.fa",
+        "format": "edam:format_1929"
+    }],
+    "output": "kraken2_out.txt",
+}

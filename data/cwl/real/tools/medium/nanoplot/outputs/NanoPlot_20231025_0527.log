@@ -1,0 +1,40 @@
+2023-10-25 05:27:28,502 NanoPlot 1.29.0 started with arguments Namespace(N50=False, alength=False, bam=None, barcoded=False, color='#4CB391', colormap='Greens', cram=None, downsample=None, dpi=100, drop_outliers=False, fasta=['/var/lib/cwl/stgfc9c9ef9-de0a-44f9-94cb-6df9c41b3798/reads1.fasta'], fastq=None, fastq_minimal=None, fastq_rich=None, font_scale=1, format='png', hide_stats=False, huge=False, listcolormaps=False, listcolors=False, loglength=False, maxlength=None, minlength=None, minqual=None, no_N50=False, outdir='.', path='./', percentqual=False, pickle=None, plots=['kde', 'dot'], prefix='', raw=False, readtype='1D', runtime_until=None, store=False, summary=None, threads=4, title=None, ubam=None, verbose=False)
+2023-10-25 05:27:28,502 Python version is: 3.7.6 | packaged by conda-forge | (default, Jan  7 2020, 22:33:48)  [GCC 7.3.0]
+2023-10-25 05:27:28,503 NanoPlot:  valid output format png
+2023-10-25 05:27:28,509 Nanoget: Starting to collect statistics from a fasta file.
+2023-10-25 05:27:28,524 Reduced DataFrame memory usage from 7.62939453125e-05Mb to 4.76837158203125e-05Mb
+2023-10-25 05:27:28,527 Nanoget: Gathered all metrics of 5 reads
+2023-10-25 05:27:28,528 Calculated statistics
+2023-10-25 05:27:28,529 Using sequenced read lengths for plotting.
+2023-10-25 05:27:28,529 NanoPlot:  Valid color #4CB391.
+2023-10-25 05:27:28,529 NanoPlot:  Valid colormap Greens.
+2023-10-25 05:27:28,530 NanoPlot:  Creating length plots for Read length.
+2023-10-25 05:27:28,530 NanoPlot:  Using 5 reads maximum of 4435bp.
+2023-10-25 05:27:29,710 Nanoplotter: orca not found, not creating static image of html. See https://github.com/plotly/orca
+2023-10-25 05:27:29,710 Image generation requires the psutil package.
+
+Install using pip:
+    $ pip install psutil
+
+Install using conda:
+    $ conda install psutil
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/nanoplotter/plot.py", line 60, in save_static
+    pio.write_image(self.fig, self.path.replace('html', 'png'))
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_orca.py", line 1767, in write_image
+    fig, format=format, scale=scale, width=width, height=height, validate=validate
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_orca.py", line 1532, in to_image
+    ensure_server()
+  File "/usr/local/lib/python3.7/site-packages/plotly/io/_orca.py", line 1370, in ensure_server
+    """
+ValueError: Image generation requires the psutil package.
+
+Install using pip:
+    $ pip install psutil
+
+Install using conda:
+    $ conda install psutil
+
+2023-10-25 05:27:29,950 Created length plots
+2023-10-25 05:27:29,950 Writing html report.
+2023-10-25 05:27:30,744 Finished!

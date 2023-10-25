@@ -1,0 +1,6 @@
+alignments:
+  class: File
+  path: ../data/picard_MarkDuplicates.bam
+  format: edam:format_2572
+alignments_are_sorted: true
+remove_duplicates: true
